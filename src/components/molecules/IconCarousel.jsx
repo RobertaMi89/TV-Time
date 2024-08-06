@@ -4,37 +4,38 @@ import Heart from "../atoms/icons/Heart";
 import Calendar from "../atoms/icons/Calendar";
 import Check from "../atoms/icons/Check";
 import Bell from "../atoms/icons/Bell";
+import { labels } from "../data/labels";
 
 const icons = [
   {
     component: (
       <Like className="text-white bg-black rounded-full w-14 h-14 p-2" />
     ),
-    text: "Contribuisci a rendere le tue serie preferite ancora miglioriTieni traccia dei tuoi film e delle tue serie TV",
+    text: labels.like,
   },
   {
     component: (
       <Heart className="text-white bg-black rounded-full w-14 h-14 p-2" />
     ),
-    text: "Scopri la tua nuova serie preferita",
+    text: labels.heart,
   },
   {
     component: (
       <Calendar className="text-white bg-black rounded-full w-14 h-14 p-2" />
     ),
-    text: "Ricorda il punto in cui avevi interrotto la visione",
+    text: labels.calendar,
   },
   {
     component: (
       <Check className="text-white bg-black rounded-full w-14 h-14 p-2" />
     ),
-    text: "Tieni traccia dei tuoi film e delle serie tv",
+    text: labels.check,
   },
   {
     component: (
       <Bell className="text-white bg-black rounded-full w-14 h-14 p-2" />
     ),
-    text: "Non perderti nemmeno un episodio",
+    text: labels.bell,
   },
 ];
 
